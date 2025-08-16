@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://c0a3d6emyxqyh"]
+
+[ext_resource type="Texture2D" uid="uid://ditfjnacmiaqq" path="res://Assets/glitch/awningGreenRed.png" id="1_10twj"]
+[ext_resource type="Script" path="res://Resources/Weapon.cs" id="2_y7mop"]
+
+[resource]
+script = ExtResource("2_y7mop")
+_damage = 10
+_delay = 20
+_weaponName = "axe"
+_texture = ExtResource("1_10twj")

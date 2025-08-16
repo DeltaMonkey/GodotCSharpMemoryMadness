@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://d3oj1n7tc1yi4"]
+
+[ext_resource type="Texture2D" uid="uid://61ef6a1dcruk" path="res://Assets/glitch/laserSwitchGreenOff.png" id="1_e7lbg"]
+[ext_resource type="Script" path="res://Resources/Weapon.cs" id="1_vh8vt"]
+
+[resource]
+script = ExtResource("1_vh8vt")
+_damage = 5
+_delay = 5
+_weaponName = "smg"
+_texture = ExtResource("1_e7lbg")
